@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+  }
+.n{
+    flex-grow: 1;
+    justify-content: flex-end;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex; 
+    gap: 20px;
+  }
+  .n a {
+    padding: 5px 10px; 
+    margin-left: 10px; 
+  }
+  .school-name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  .school-name div {
+    text-align: left;
+  }
+  #en{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 20px;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,141,0,1) 0%, rgba(251,213,104,1) 25%, rgba(241,210,134,1) 40%, rgba(255,189,0,1) 100%);
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  .ef {
+    position: relative;       /* Nécessaire pour positionner le pseudo-élément par rapport au lien */
+    text-decoration: none;    /* On retire la décoration par défaut */
+    color: #333;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.40);
+  }
+  
+  .ef:hover{
+    font-weight: bolder;
+  }
+  
+  .ef::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;             /* Ajuste selon l'espacement souhaité par rapport au texte */
+    width: 0;                 /* Par défaut, le trait n'est pas visible */
+    height: 2px;              /* Épaisseur du trait */
+    background-color: #ecebeb;/* Couleur du soulignement, à personnaliser */
+    transition: width 0.3s ease;
+  }
+  
+  
+  .ef:hover::after,
+  .ef:focus::after {
+    width: 100%;
+  }
+  button{
+    background-color: coral;
+    border-radius: 08px;
+    background: transparent;
+  }
+  .logo{
+    margin-right: 10px;
+  }
+  footer{
+    background-color: #000000;
+    color: white;
+    font-size:15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  .n{
+    flex-grow: 1;
+    justify-content: flex-end;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex; 
+    gap: 20px;
+  }
+  .n a {
+    padding: 5px 10px; 
+    margin-left: 10px; 
+  }
+  #en{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 20px;
+    background: linear-gradient(135deg, #E0F7FA, #FFF9C4, #FFB74D);
+    width: 97%;
+    position: fixed;
+    top: 0;
+    position: fixed; /* Fixer l'en-tête */
+    top: 0; /* Positionner l'en-tête en haut */
+    z-index: 1000;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+  button{
+    background-color: coral;
+    border-radius: 08px;
+    background: transparent;
+  }
+  .logo{
+    margin-right: 10px;
+  }
+  .school-name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  .school-name div {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a:hover{
+    font-weight: 300;
+    height: auto;
+    color: rgb(56, 56, 56);
+  }
+  button:hover {
+    background-color: navajowhite; /* Couleur au survol */
+    border-color: black; /* Couleur de la bordure au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille */
+  }
+  .b{
+    text-align: center;
+    width: 130px;
+    height: auto;
+    padding-left: 0;
+  }
+  .z{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .p {
+    background-color:transparent;/* Couleur de fond */
+    border: 2px solid black; /* Bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 10px; /* Espacement intérieur */
+    font-size: 10px; /* Taille du texte */
+    cursor: pointer; /* Curseur */
+    border-radius: 7px; /* Coins légèrement arrondis */
+    transition: all 0.3s ease; /* Transition douce */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  .section {
+    margin-bottom: 30px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .feature {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .feature-icon {
+    font-size: 50px;
+    color: #0073e6;
+  }

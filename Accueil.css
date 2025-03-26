@@ -1,0 +1,321 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.t{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+}
+.n{
+  flex-grow: 1;
+  justify-content: flex-end;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: flex; 
+  gap: 20px;
+}
+.n a {
+  padding: 5px 10px; 
+  margin-left: 10px; 
+}
+a:visited{
+  font-size: 1.2em;
+}
+#en{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  height: 20px;
+  background: linear-gradient(135deg, #E0F7FA, #FFF9C4, #FFB74D);
+  width: 97%;
+  position: fixed;
+  top: 0;
+  position: fixed; /* Fixer l'en-tête */
+  top: 0; /* Positionner l'en-tête en haut */
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.30);
+}
+a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+.ef {
+  position: relative;       /* Nécessaire pour positionner le pseudo-élément par rapport au lien */
+  text-decoration: none;    /* On retire la décoration par défaut */
+  color: #333;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.40);
+}
+.ef:hover{
+  font-weight: bolder;
+}
+
+
+.ef::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;             /* Ajuste selon l'espacement souhaité par rapport au texte */
+  width: 0;                 /* Par défaut, le trait n'est pas visible */
+  height: 2px;              /* Épaisseur du trait */
+  background-color: #ecebeb;/* Couleur du soulignement, à personnaliser */
+  transition: width 0.3s ease;
+}
+
+
+.ef:hover::after,
+.ef:focus::after {
+  width: 100%;
+}
+
+button{
+  background-color: coral;
+  border-radius: 08px;
+  background: transparent;
+}
+.z{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.logo{
+  margin-right: 10px;
+}
+.school-name {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.school-name div {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ir{
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  color: #000000;
+}
+a:hover{
+  font-weight: 300;
+  height: auto;
+  color: rgb(56, 56, 56);
+}
+.b{
+  text-align: center;
+  width: 130px;
+  height: auto;
+  padding-left: 0;
+  border-radius: 0;
+  box-shadow: 0 8px 8px rgba(31, 31, 31, 0.8);
+}
+.b:hover{
+  background-color: transparent;
+}
+body{
+  z-index: -1;
+}
+.mil{
+  position: relative;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 63px;
+  padding-top: auto;
+  overflow: hidden;
+}
+.mil::before{
+  background-image: url(7.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  content: "";
+}
+.bck-blur{
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+  border-radius: 10px; /* Coins arrondis (facultatif) */
+  max-width: 1500px; /* Largeur maximale du contenu */
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 30px;
+}
+.p {
+  background-color:transparent;/* Couleur de fond */
+  border: 2px solid black; /* Bordure */
+  color: white; /* Couleur du texte */
+  padding: 10px 10px; /* Espacement intérieur */
+  font-size: 10px; /* Taille du texte */
+  cursor: pointer; /* Curseur */
+  border-radius: 7px; /* Coins légèrement arrondis */
+  transition: all 0.3s ease; /* Transition douce */
+}
+button:hover {
+  background-color: navajowhite; /* Couleur au survol */
+  border-color: black; /* Couleur de la bordure au survol */
+  transform: scale(1.05); /* Légère augmentation de la taille */
+}
+.cit{
+  text-align:center;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dev{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.inf-sec {
+  background: rgba(170, 169, 169, 0.7); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+  color: #000000;
+}
+
+.inf-sec h3 {
+  text-align: left;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.inf-sec p {
+  line-height: 1.6;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.inf-sec ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.inf-sec ul li {
+  background: #393939;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+footer{
+  background-color: #000000;
+  color: white;
+  font-size:15px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.inf-sec h3{
+  text-align: left;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: black;
+  text-decoration: underline;
+}
+.inf-ins{
+  background: rgba(170, 169, 169, 0.7); 
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+  color: #000000;
+  margin-bottom: 90px;
+}
+.inf-ins ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.inf-ins ul li{
+  background: #393939;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.inf-ins p {
+  text-align: center;
+  font-size:1.1em;
+  margin-bottom: 20px;
+  color: black
+}
+.inf-ins h3{
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: black;
+  text-decoration: underline;
+}
+.f h3{
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: black;
+  text-decoration: underline;
+}
+.j{
+  font-family: cursive;
+  text-align: justify;
+}
+.k{
+  font-family: sans-serif;
+}
+.f {
+  background: rgba(170, 169, 169, 0.7); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+  color: #000000;
+}
+.f ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.f ul li{
+  background: #393939;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+@keyframes rotateIn{
+  from{
+  transform: rotateY(-360deg);
+  opacity: 0;
+}
+  to{
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+.main{
+  animation: rotateIn 5s ease-in-out;
+}
+.w{
+  font-style: italic;
+}
