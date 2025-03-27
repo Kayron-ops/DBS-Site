@@ -204,7 +204,7 @@ body::-webkit-scrollbar{
   padding-left:20px;
   width: 1000px;
   box-shadow: 0 4px 8px rgba(3, 3, 3, 0.9);
-  margin-top: -100px;
+  margin-top: -350px;
   background-position: center;
   align-items: center;
   height: auto;
@@ -220,7 +220,7 @@ body::-webkit-scrollbar{
   padding-left:20px;
   width: 1000px;
   box-shadow: 0 4px 8px rgba(3, 3, 3, 0.9);
-  margin-top: -50px;
+  margin-top: -350px;
   background-position: center;
   align-items: center;
   height: auto;
@@ -253,7 +253,7 @@ body::-webkit-scrollbar{
   padding-left:20px;
   width: 1000px;
   box-shadow: 0 4px 8px rgba(3, 3, 3, 0.9);
-  margin-top: 0px;
+  margin-top: -350px;
   background-position: center;
   align-items: center;
   height: auto;
@@ -340,7 +340,7 @@ li{
   flex-direction:row;
   justify-content: center;
   align-items: center;
-  margin-top: -100px;
+  margin-top: 00px;
   margin-bottom: 100px;
   margin-left: 20px;
   gap: 05px;
