@@ -358,6 +358,7 @@ li{
   text-align: center;
   margin-top: 10px;
   border: 2px solid black;
+  height:300px;
 }
 .t2 td, .sco td {
   padding: 10px;
