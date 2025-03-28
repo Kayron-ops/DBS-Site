@@ -172,9 +172,6 @@ body{
   background-size: cover;
   overflow-x: scroll;
 }
-body::-webkit-scrollbar{
-  display: none;
-}
 .section {
   background: rgba(146, 143, 143, 0.8);
   border-radius: 10px;
@@ -355,9 +352,23 @@ li{
   padding: 10px;
   border: 1px solid #000000;
 }
-
+.t2{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+.t2 td, .sco td {
+  padding: 10px;
+  border: 1px solid #000000;
+}
 .sco td {
   font-weight: bold;
+}
+.t1{
+  text-decoration: underline;
+  text-align: center;
 }
 tbody tr:nth-child(even) {
   background-color: #f2f2f2;
