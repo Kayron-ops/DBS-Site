@@ -182,6 +182,7 @@ body{
     flex-direction: row;
     gap: 170px;
     padding-top: 30px;
+   margin-bottom: 10%;
 }
 h2{
   color: #000000;
