@@ -280,6 +280,7 @@ nav ul li a:hover{
 }
 .nom{
   color: rgb(189, 189, 189);
+  font-family: 'Times New Roman', Times, serif;
 }
 .nom a:hover{
   color: red;
